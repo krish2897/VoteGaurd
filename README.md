@@ -1,8 +1,11 @@
 # Voting on Nillion
 
-This project demonstrates a decentralized voting system powered by Nillion. The voting system utilizes Nillion's secure and scalable infrastructure to ensure that all votes are recorded accurately and transparently, without compromising voter privacy. By leveraging the Nillion network, this solution provides a tamper-proof environment where votes can be cast, tallied, and verified in real-time, offering an innovative approach to digital democracy.
-- This uses a proxy /nilchain-proxy set up in the webpack that targets the json rpc from your .env file
-- A Nillion config is in the nillion.ts file. This config reads environment variables from your .env file, which can either point to Testnet or nillion-devnet values
+VoteGuard is a decentralized voting system powered by Nillion, designed to ensure that every vote is recorded accurately and transparently while safeguarding voter privacy. By leveraging Nillion's secure and scalable infrastructure, VoteGuard offers a tamper-proof environment where votes can be cast, tallied, and verified in real-time, representing a significant advancement in digital democracy.
+
+## Technical Details
+
+Proxy Setup: VoteGuard employs a /nilchain-proxy configured in the webpack, which targets the JSON-RPC endpoint specified in your .env file. This setup ensures secure and seamless communication with the Nillion network.
+Nillion Configuration: The Nillion settings are managed in the nillion.ts file, which reads environment variables from your .env file. This allows easy switching between Testnet or Nillion Devnet configurations, providing flexibility during development and deployment.
 
 ## Run nillion-devnet
 
